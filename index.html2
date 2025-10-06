@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>আপনার রাজনৈতিক সফল জ্ঞান কতটুকু?</title>
+  <style>
+    body {
+      font-family: 'Noto Sans Bengali', sans-serif;
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #1b5e20;
+    }
+    .question {
+      background: #fff;
+      padding: 15px;
+      margin: 12px 0;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      background: #2e7d32;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    #result {
+      text-align: center;
+      font-size: 20px;
+      margin-top: 20px;
+      color: #d84315;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<h1>🗳 আপনার রাজনৈতিক সফল জ্ঞান কতটুকু?</h1>
+<p style="text-align:center;">নিচের ২০টি প্রশ্নের উত্তর দিন এবং দেখুন আপনি কত % সঠিক উত্তর দিয়েছেন।</p>
+
+<form id="quizForm">
+
+<!-- Question 1 -->
+<div class="question">
+  <p>১. গণ অধিকার পরিষদ তরুণ দল আপনি মানেন?</p>
+  <input type="radio" name="q1" value="1"> একমত<br>
+  <input type="radio" name="q1" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q1" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q1" value="4"> একমত না<br>
+</div>
+
+<!-- Question 2 -->
+<div class="question">
+  <p>২. এনসিপি কিংস পার্টি আপনি বিশ্বাস করেন?</p>
+  <input type="radio" name="q2" value="1"> একমত<br>
+  <input type="radio" name="q2" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q2" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q2" value="4"> একমত না<br>
+</div>
+
+<!-- Question 3 -->
+<div class="question">
+  <p>৩. ইউনুস বিপ্লব ধ্বংসকারি</p>
+  <input type="radio" name="q3" value="1"> একমত<br>
+  <input type="radio" name="q3" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q3" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q3" value="4"> একমত না<br>
+</div>
+
+<!-- Question 4 -->
+<div class="question">
+  <p>৪. বিএনপি চাদাবাজদের দল</p>
+  <input type="radio" name="q4" value="1"> একমত<br>
+  <input type="radio" name="q4" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q4" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q4" value="4"> একমত না<br>
+</div>
+
+<!-- Question 5 -->
+<div class="question">
+  <p>৫. বিএনপি ভালো একটি দল</p>
+  <input type="radio" name="q5" value="1"> একমত<br>
+  <input type="radio" name="q5" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q5" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q5" value="4"> একমত না<br>
+</div>
+
+<!-- Question 6 -->
+<div class="question">
+  <p>৬. জামায়াত ইসলামি দল না</p>
+  <input type="radio" name="q6" value="1"> একমত<br>
+  <input type="radio" name="q6" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q6" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q6" value="4"> একমত না<br>
+</div>
+
+<!-- Question 7 -->
+<div class="question">
+  <p>৭. শিবির সবচেয়ে খারাপ সংগঠন</p>
+  <input type="radio" name="q7" value="1"> একমত<br>
+  <input type="radio" name="q7" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q7" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q7" value="4"> একমত না<br>
+</div>
+
+<!-- Question 8 -->
+<div class="question">
+  <p>৮. ভিপি নুর তরুণদের আন্দোলনে আসতে বড় ভূমিকা রেখেছে</p>
+  <input type="radio" name="q8" value="1"> একমত<br>
+  <input type="radio" name="q8" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q8" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q8" value="4"> একমত না<br>
+</div>
+
+<!-- Question 9 -->
+<div class="question">
+  <p>৯. নাহিদ ব্যর্থ নেতা উপদেষ্টা</p>
+  <input type="radio" name="q9" value="1"> একমত<br>
+  <input type="radio" name="q9" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q9" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q9" value="4"> একমত না<br>
+</div>
+
+<!-- Question 10 -->
+<div class="question">
+  <p>১০. আসিফ মাহমুদ বাটপারি করেছে</p>
+  <input type="radio" name="q10" value="1"> একমত<br>
+  <input type="radio" name="q10" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q10" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q10" value="4"> একমত না<br>
+</div>
+
+<!-- Question 11 -->
+<div class="question">
+  <p>১১. বিএনপি খারাপ তারেক ভালো</p>
+  <input type="radio" name="q11" value="1"> একমত<br>
+  <input type="radio" name="q11" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q11" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q11" value="4"> একমত না<br>
+</div>
+
+<!-- Question 12 -->
+<div class="question">
+  <p>১২. হাসিনারে চু দি</p>
+  <input type="radio" name="q12" value="1"> একমত<br>
+  <input type="radio" name="q12" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q12" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q12" value="4"> একমত না<br>
+</div>
+
+<!-- Question 13 -->
+<div class="question">
+  <p>১৩. লিগ ফিরবে না</p>
+  <input type="radio" name="q13" value="1"> একমত<br>
+  <input type="radio" name="q13" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q13" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q13" value="4"> একমত না<br>
+</div>
+
+<!-- Question 14 -->
+<div class="question">
+  <p>১৪. ইলিয়াস একটা পিউর মাদারসোদ</p>
+  <input type="radio" name="q14" value="1"> একমত<br>
+  <input type="radio" name="q14" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q14" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q14" value="4"> একমত না<br>
+</div>
+
+<!-- Question 15 -->
+<div class="question">
+  <p>১৫. পিনাকি র এর এজেন্ট</p>
+  <input type="radio" name="q15" value="1"> একমত<br>
+  <input type="radio" name="q15" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q15" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q15" value="4"> একমত না<br>
+</div>
+
+<!-- Question 16 -->
+<div class="question">
+  <p>১৬. আসিফ নজরুল বিশ্ব ভালো মানুষ হিসেবে নোবেল দাবিদার</p>
+  <input type="radio" name="q16" value="1"> একমত<br>
+  <input type="radio" name="q16" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q16" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q16" value="4"> একমত না<br>
+</div>
+
+<!-- Question 17 -->
+<div class="question">
+  <p>১৭. মোহাম্মদ ইশরাক সাংবাদিক মনিকে চিনে</p>
+  <input type="radio" name="q17" value="1"> একমত<br>
+  <input type="radio" name="q17" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q17" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q17" value="4"> একমত না<br>
+</div>
+
+<!-- Question 18 -->
+<div class="question">
+  <p>১৮. আরাফাত শৈশব আর সাংবাদিক মনি একই</p>
+  <input type="radio" name="q18" value="1"> একমত<br>
+  <input type="radio" name="q18" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q18" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q18" value="4"> একমত না<br>
+</div>
+
+<!-- Question 19 -->
+<div class="question">
+  <p>১৯. বাংলাদেশ ক্রিকেট আগামী টি টোয়েন্টি বিশ্বকাপ জিতবে</p>
+  <input type="radio" name="q19" value="1"> একমত<br>
+  <input type="radio" name="q19" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q19" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q19" value="4"> একমত না<br>
+</div>
+
+<!-- Question 20 -->
+<div class="question">
+  <p>২০. খালেদা জিয়া স্বৈরাচার ছিলো</p>
+  <input type="radio" name="q20" value="1"> একমত<br>
+  <input type="radio" name="q20" value="2"> কিছুটা একমত<br>
+  <input type="radio" name="q20" value="3"> মন্তব্য নেই<br>
+  <input type="radio" name="q20" value="4"> একমত না<br>
+</div>
+
+<button type="button" onclick="checkResult()">Submit</button>
+</form>
+
+<h2 id="result"></h2>
+
+<script>
+const answers = {
+  q1: "1", q2: "1", q3: "1", q4: "1", q5: "1", q6: "1", q7: "1", q8: "1", q9: "1", q10: "1",
+  q11: "1", q12: "1", q13: "2", q14: "3", q15: "3", q16: "4", q17: "1", q18: "3", q19: "4", q20: "4"
+};
+
+function checkResult() {
+  let score = 0;
+  for(let i=1; i<=20; i++){
+    const q = "q"+i;
+    const radios = document.getElementsByName(q);
+    for(let radio of radios){
+      if(radio.checked && radio.value === answers[q]){
+        score++;
+      }
+    }
+  }
+  const percent = Math.round((score/20)*100);
+  document.getElementById("result").innerText = আপনার সঠিকতা: ${percent}%;
+}
+</script>
+
+</body>
+</html>
